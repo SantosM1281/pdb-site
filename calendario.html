@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title> Calendario </title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/ico">    
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<!-- include jQuery -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- local file of jQuery -->
+		<script type="text/javascript" src="includes/js/jquery.min.js"></script>
+		
+		<!-- for dragging/swiping/pinching, include hammer.js -->
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+		<!-- local file of dragging/swiping/pinching, include hammer -->
+		<script type="text/javascript" src="includes/js/jquery.hammer.min.js"></script>
+
+		<!-- for scaling UI buttons (for wide websites on small screens), include FlameViewportScale -->
+		<script type="text/javascript" src="lib/FlameViewportScale.js"></script>
+
+		<!-- include Tos "R"Us -->
+		<script type="text/javascript" src="src/js/jquery.tosrus.min.all.js"></script>
+		<link type="text/css" media="all" rel="stylesheet" href="src/css/jquery.tosrus.all.css" />
+
+		<link href="c.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+		<script src="http://ericwenn.se/js/basic.js"></script>
+
+		<script src="calendar.js"></script>
+
+		<!-- fire the plugin onDocumentReady -->
+				<script type="text/javascript">
+		
+			jQuery(function( $ ) {
+				$('#example-2 a').tosrus({
+					pagination	: {
+						add			: true
+					},
+					caption		: {
+						add			: true
+					},
+					slides		: {
+						scale		: 'false'
+					}
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+	<div class="wrapper">
+	<div class="container" id="main">
+	<div class="banner fixed-top"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></div>
+		<div class="navbar "><!--  -->
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html"> Portada </a> </li>
+	 					<li><a href="historia.html">Historia</a></li>
+	 					<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Ministerios <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+									<li> <a href="ministerios.html"> Ministerios</a> </li>
+									<li class="divider"></li>
+									<li class="dropdown-header"> Otras paginas: </li>
+									<li> <a href="http://www.teconmiamiga.com/" target="_blank"> T&eacute; Con Mi Amiga </a> </li>
+									<!-- <li><a href="POP/index.html" target="_blank"> P.O.P Youth Ministry </a></li> -->
+							</ul> <!-- end dropdown-menu -->
+						</li>
+						<li> <a href="galeria.html"> Galer&iacute;a </a></li>
+						<li class="active"><a href="calendario.html">Calendario</a></li>
+						<li><a href="contactenos.html">Cont&aacute;ctenos</a></li>
+						<li><a href="radio.html">Radio</a></li>
+					</ul>
+				</div> <!-- end nav-collapse -->
+
+			</div> <!-- end container -->
+		</div> <!-- end navbar -->
+
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+					
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+						<h4>Successfully!</h4>
+						<p> You made this element display by using jquery</p>
+					</div> <!-- end alert -->
+
+					<!-- displays only on small decies -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>407-408-9573 or 407-408-9574</a>
+					</div><!-- end well-small -->
+
+					<div class="well">
+						<div class="page-header-gallery">
+							<h3> Calendario:</h3>
+						</div> <!-- page-header -->
+								<div class="row" id="moreInfo">
+									<div class="col-sm-12">
+									<div class="box calendar wrapperclear-50" data-color="blue" style="height:35em">
+										<!-- Enero -->
+										<div data-role="day" data-day="20150105">
+											<div data-role="event" data-name="Comenzamos Ayuno de Congregacional de Daniel " data-start="21" data-end="Dias" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150107">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150109">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="07:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150116">
+											<div data-role="event" data-name="Un d&iacute;a Con Mi Amigo" data-start="6:00pm" data-end="9:00pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150116">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150117">
+											<div data-role="event" data-name="Reuni&oacute;n de L&iacute;deres" data-start="9:00am" data-end="1:00pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150123">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150123">
+											<div data-role="event" data-name="Te Con Mi Amiga" data-start="7:00pm" data-end="10:00pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150125">
+											<div data-role="event" data-name="Servicio de las Primicias" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150130">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="07:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<!-- febrero -->
+										<div data-role="day" data-day="20150201">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150204">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150205">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150206">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150208">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150211">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150212">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150213">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150214">
+											<div data-role="event" data-name="Cena de Matrimonios" data-start="7:00pm" data-end="10:00pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150215">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150218">
+											<div data-role="event" data-name="Reuni&oacute;n de L&iacute;deres" data-start="9:00am" data-end="1:00pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150219">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150220">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150221">
+											<div data-role="event" data-name="Car Wash" data-start="8:00am" data-end="3:00pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150222">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150225">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150226">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150227">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+
+										<!-- Marzo -->
+										<div data-role="day" data-day="201503201">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150304">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150305">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150306">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150308">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150308">
+											<div data-role="event" data-name="Venta de Comida" data-start="12:30pm" data-end="1:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150311">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150312">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150313">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150315">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150318">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150319">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150320">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150321">
+											<div data-role="event" data-name="Car Wash" data-start="8:00am" data-end="3:00pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150322">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150325">
+											<div data-role="event" data-name="Discipulado Sanford" data-start="7:00pm" data-end="9:30pm" data-location=""></div>
+										</div>
+										<div data-role="day" data-day="20150326">
+											<div data-role="event" data-name="Discipulado Kissimmee" data-start="7:00pm" data-end="9:30pm" data-location="Sal&oacute;n de Actividades"></div>
+										</div>
+										<div data-role="day" data-day="20150327">
+											<div data-role="event" data-name="Reuni&oacute;n de J&oacute;venes" data-start="7:00pm" data-end="9:00pm" data-location="Templo"></div>
+										</div>
+										<div data-role="day" data-day="20150329">
+											<div data-role="event" data-name="Servicion General" data-start="10:30am" data-end="12:00pm" data-location="Templo"></div>
+										</div>
+
+										<!-- Abril -->
+										<!-- <div data-role="day" data-day="20150">
+											<div data-role="event" data-name="" data-start="" data-end="" data-location=""></div>
+										</div> -->
+
+
+
+
+									</div>		
+									</div> <!-- endbigCallut -->										
+								<br>
+								</div> <!-- end panel -->
+					</div> <!-- end feature -->
+			</div> <!-- end-col-12 -->
+		</div> <!-- end wrapper -->
+</div>
+</div>
+	<footer>
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-sm-2">
+	 			<h6>Copyright &copy; 2015-2016 </h6>
+	 				
+	 			</div> <!-- col-sm-2 -->
+	 			<div class="col-sm-4">
+	 				<h6>Qui&eacute;nes Somos</h6>
+	 				<p> Somos un Ministerio sin denominaci&oacute;n religiosa, que creemos en una relaci&oacute;n con Jesucristo y no en una religi&oacute;n.</p>
+	 				
+	 			</div> <!-- col-sm-4 -->
+	 			<div class="col-sm-2">
+	 				<h6>Navegaci&oacute;n</h6>
+	 				<ul class="unstyled">
+	 					<li><a href="index.html"> Portada </a></li>
+	 					<li><a href="historia.html"> Historia </a></li>
+	 					<li><a href="ministerios.html"> Ministerios </a></li>
+	 					<li><a href="galeria.html"> Galer&iacute;a </a></li>
+	 					<li><a href="calendario.html"> Calendario </a> </li>
+	 					<li><a href="contactenos.html"> Cont&aacute;ctenos </a></li>
+	 				</ul>
+	 			</div> <!-- col-sm-2 -->
+	 			<div class="col-sm-2">
+	 				<h6>Siguenos</h6>
+	 				<ul class="unstyled">
+	 					<li><a href="https://www.facebook.com/groups/832311136796415/" target="_blank">Facebook</a></li>
+	 				</ul>
+	 			</div> <!-- col-sm-2 -->
+	 			<div class="col-sm-2">
+	 				<h6><a href="http://www.sm-portfolio.com" target="_blank">Coded by Santos Mu&ntilde;oz</a></h6>
+	 			</div><!-- col-sm-2 -->
+	 		</div> <!-- end row -->
+	 	</div> <!-- end container -->
+	</footer>
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	</body>
+</html>
